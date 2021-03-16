@@ -4,13 +4,15 @@ def cpy_to_clip(character):
     root.clipboard_clear()
     root.clipboard_append(character)
     root.update()
+    lblStr = character + " has been copied to clipboard"
+    lbl.config(text = lblStr)
 
 root = Tk()
-root.geometry('210x285')
+root.geometry('265x310')
 root.title("Spanish Accents")
 
 btnHeight = 4
-btnWidth = 6
+btnWidth = 8
 
 #Á button
 button1 = Button(root, text="Á", command=lambda: cpy_to_clip('Á'), height=btnHeight, width=btnWidth)
@@ -67,6 +69,10 @@ button13.grid(column=0, row=3)
 #¡ button
 button14 = Button(root, text="¡", command=lambda: cpy_to_clip('¡'), height=btnHeight, width=btnWidth)
 button14.grid(column=1, row=3)
+
+#Confirmation Label
+lbl = Label(text="Click on a button to copy to clipboard", font=("serif-sans", 12))
+lbl.grid(row=4, columnspan=4)
 
 root.mainloop()
 
