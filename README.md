@@ -8,4 +8,6 @@ The list of availible characters include:
 * Eñe
 * Punctuation
 
-To use simply click the button corresponding to the letter you need and it will be copied to your clipboard.
+## How to use
+
+Simply click the button corresponding to the letter you need and it will be copied to your clipboard.
