@@ -2,7 +2,7 @@
 
 Here is a simple file for accessing letters with accent marks. 
 
-The list of availible characters include:
+The list of available characters include:
 * Uppercase Letters
 * Lowercase Letters
 * Eñe
